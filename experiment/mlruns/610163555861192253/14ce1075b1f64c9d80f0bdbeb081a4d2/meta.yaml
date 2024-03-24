@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/USER/Desktop/python%20project/MLFLOW/Real%20Loan%20Application/experiment/mlruns/610163555861192253/14ce1075b1f64c9d80f0bdbeb081a4d2/artifacts
+end_time: 1711183232719
+entry_point_name: ''
+experiment_id: '610163555861192253'
+lifecycle_stage: active
+run_id: 14ce1075b1f64c9d80f0bdbeb081a4d2
+run_name: first_experiment
+run_uuid: 14ce1075b1f64c9d80f0bdbeb081a4d2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711183225640
+status: 3
+tags: []
+user_id: USER

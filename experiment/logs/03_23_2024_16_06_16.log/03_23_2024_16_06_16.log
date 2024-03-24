@@ -1,0 +1,30 @@
+[ 2024-03-23 16:08:25,431] 17 root - INFO - Ingesting Data
+[ 2024-03-23 16:09:07,969] 22 root - INFO - Start Transforming Data....
+[ 2024-03-23 16:09:07,970] 25 root - INFO - -> Droping ID column
+[ 2024-03-23 16:09:07,976] 29 root - INFO - -> Droping duplicate
+[ 2024-03-23 16:09:08,028] 39 root - INFO - -> Splitting to X and y
+[ 2024-03-23 16:09:08,030] 50 root - INFO - -> Applying Ordinal Encoder
+[ 2024-03-23 16:09:08,037] 60 root - INFO - -> Applying Standard Scaler
+[ 2024-03-23 16:09:08,037] 71 root - INFO - -> Saving encoder and standardization file
+[ 2024-03-23 16:09:08,037] 37 root - CRITICAL - Error occured in Python script name [c:\users\user\desktop\python project\mlflow\real loan application\steps\data_transformation.py] line number [74] error message [[Errno 2] No such file or directory: 'artifacts/encoder.pkl']
+[ 2024-03-23 16:09:49,442] 22 root - INFO - Start Transforming Data....
+[ 2024-03-23 16:09:49,442] 25 root - INFO - -> Droping ID column
+[ 2024-03-23 16:09:49,443] 37 root - CRITICAL - Error occured in Python script name [c:\users\user\desktop\python project\mlflow\real loan application\steps\data_transformation.py] line number [27] error message ["['Applicant_ID'] not found in axis"]
+[ 2024-03-23 16:10:34,807] 17 root - INFO - Ingesting Data
+[ 2024-03-23 16:10:36,991] 22 root - INFO - Start Transforming Data....
+[ 2024-03-23 16:10:36,991] 25 root - INFO - -> Droping ID column
+[ 2024-03-23 16:10:36,997] 29 root - INFO - -> Droping duplicate
+[ 2024-03-23 16:10:37,044] 39 root - INFO - -> Splitting to X and y
+[ 2024-03-23 16:10:37,047] 50 root - INFO - -> Applying Ordinal Encoder
+[ 2024-03-23 16:10:37,055] 60 root - INFO - -> Applying Standard Scaler
+[ 2024-03-23 16:10:37,055] 71 root - INFO - -> Saving encoder and standardization file
+[ 2024-03-23 16:10:37,055] 37 root - CRITICAL - Error occured in Python script name [c:\users\user\desktop\python project\mlflow\real loan application\steps\data_transformation.py] line number [74] error message [[Errno 2] No such file or directory: 'artifacts/encoder.pkl']
+[ 2024-03-23 16:11:39,991] 17 root - INFO - Ingesting Data
+[ 2024-03-23 16:11:41,395] 22 root - INFO - Start Transforming Data....
+[ 2024-03-23 16:11:41,396] 25 root - INFO - -> Droping ID column
+[ 2024-03-23 16:11:41,403] 29 root - INFO - -> Droping duplicate
+[ 2024-03-23 16:11:41,451] 39 root - INFO - -> Splitting to X and y
+[ 2024-03-23 16:11:41,454] 50 root - INFO - -> Applying Ordinal Encoder
+[ 2024-03-23 16:11:41,468] 60 root - INFO - -> Applying Standard Scaler
+[ 2024-03-23 16:11:41,472] 71 root - INFO - -> Saving encoder and standardization file
+[ 2024-03-23 16:11:41,472] 37 root - CRITICAL - Error occured in Python script name [c:\users\user\desktop\python project\mlflow\real loan application\steps\data_transformation.py] line number [74] error message [[Errno 2] No such file or directory: 'artifacts/encoder.pkl']

@@ -1,0 +1,12 @@
+creation_timestamp: 1711184294582
+current_stage: None
+description: null
+last_updated_timestamp: 1711184294582
+name: Logistic_Regressionv2
+run_id: 7656ad5659cd41ad97cfd3c32d57d1d2
+run_link: null
+source: file:///C:/Users/USER/Desktop/python%20project/MLFLOW/Real%20Loan%20Application/experiment/mlruns/610163555861192253/7656ad5659cd41ad97cfd3c32d57d1d2/artifacts/loan_application_model
+status: READY
+status_message: null
+user_id: null
+version: 1

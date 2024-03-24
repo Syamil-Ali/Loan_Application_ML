@@ -1,0 +1,25 @@
+[ 2024-03-23 16:13:02,883] 17 root - INFO - Ingesting Data
+[ 2024-03-23 16:13:22,756] 22 root - INFO - Start Transforming Data....
+[ 2024-03-23 16:13:22,756] 25 root - INFO - -> Droping ID column
+[ 2024-03-23 16:13:22,761] 29 root - INFO - -> Droping duplicate
+[ 2024-03-23 16:13:22,810] 39 root - INFO - -> Splitting to X and y
+[ 2024-03-23 16:13:22,813] 50 root - INFO - -> Applying Ordinal Encoder
+[ 2024-03-23 16:13:22,825] 60 root - INFO - -> Applying Standard Scaler
+[ 2024-03-23 16:13:22,825] 71 root - INFO - -> Saving encoder and standardization file
+[ 2024-03-23 16:25:03,196] 17 root - INFO - Ingesting Data
+[ 2024-03-23 16:25:05,948] 22 root - INFO - Start Transforming Data....
+[ 2024-03-23 16:25:05,948] 25 root - INFO - -> Droping ID column
+[ 2024-03-23 16:25:05,957] 29 root - INFO - -> Droping duplicate
+[ 2024-03-23 16:25:06,023] 39 root - INFO - -> Splitting to X and y
+[ 2024-03-23 16:25:06,026] 50 root - INFO - -> Applying Ordinal Encoder
+[ 2024-03-23 16:25:06,043] 60 root - INFO - -> Applying Standard Scaler
+[ 2024-03-23 16:25:06,049] 71 root - INFO - -> Saving encoder and standardization file
+[ 2024-03-23 16:25:30,947] 17 root - INFO - Ingesting Data
+[ 2024-03-23 16:25:31,384] 22 root - INFO - Start Transforming Data....
+[ 2024-03-23 16:25:31,384] 25 root - INFO - -> Droping ID column
+[ 2024-03-23 16:25:31,395] 29 root - INFO - -> Droping duplicate
+[ 2024-03-23 16:25:31,448] 39 root - INFO - -> Splitting to X and y
+[ 2024-03-23 16:25:31,451] 50 root - INFO - -> Applying Ordinal Encoder
+[ 2024-03-23 16:25:31,465] 60 root - INFO - -> Applying Standard Scaler
+[ 2024-03-23 16:25:31,467] 71 root - INFO - -> Saving encoder and standardization file
+[ 2024-03-23 16:29:00,983] 23 root - INFO - Running up Logistic Regression...
