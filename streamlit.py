@@ -29,3 +29,98 @@ import streamlit as st
 # -----------------------------
 # start designing the streamlit ui
 st.title("Loan Application Classification")
+
+# ------------ part here from st_ppss
+
+import streamlit as st
+import pandas as pd
+
+df = pd.read_csv('Exercise Loan Application/data/Applicant-details.csv')
+
+st.title('Loan Application Classification')
+
+
+# ---------------- add form
+
+# Applicant_ID	(none)
+# Annual_Income	
+# Applicant_Age	
+# Work_Experience	
+# Marital_Status	
+# House_Ownership	
+# Vehicle_Ownership(car)	
+# Occupation	
+# Residence_City	
+# Residence_State	
+# Years_in_Current_Employment	
+# Years_in_Current_Residence	
+# Loan_Default_Risk
+
+with st.form("my_form"):
+
+    st.write("Inside the form")
+
+
+    # annual income
+    an_income = st.number_input('Annual Income ($)', min_value=0)
+
+    # Applicant Age
+    age = st.number_input('Age', min_value=18, max_value=100)
+
+    # work experince
+    experience = st.number_input('Total years working experience', min_value=0, max_value=100)
+
+    # marital status
+    marital_st = st.radio('Marital Status', 
+                        ['Single', 'Married'],
+                        horizontal = True)
+    
+    #House_Ownership	
+    house_owner = st.radio('House Ownership',
+                            ['Rented', 'Owned', 'norent_noown'])
+
+
+    # Vehicle Ownership
+    vehicle_owner = st.radio('Own Vehicle',
+                            ['Yes', 'No'])
+
+
+    # Occupation
+    occupation = st.selectbox('Occupation',
+                        df['Occupation'].drop_duplicates())
+
+    #Residence_City	
+    city = st.selectbox('City Reside',
+                        df['Residence_City'].drop_duplicates())
+    
+
+    #Residence_state
+    city = st.selectbox('State Reside',
+                        df['Residence_State'].drop_duplicates())
+
+
+        
+    # years current employment
+    years_employment = st.number_input('Total in current employment', min_value=0, max_value=100)
+
+
+    # years current residence
+    years_employment = st.number_input('Total in current residence', min_value=0, max_value=100)
+
+    
+    
+
+
+
+    slider_val = st.slider("Form slider")
+    checkbox_val = st.checkbox("Form checkbox")
+
+    # Every form must have a submit button.
+    submitted = st.form_submit_button("Submit")
+
+
+if submitted:
+    st.write("slider", slider_val, "checkbox", checkbox_val)
+
+st.write("Outside the form")
+
